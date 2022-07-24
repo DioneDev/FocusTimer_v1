@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+:root {
+	font-size: 62.5%;
+
+	--ff-timer: 'Roboto', sans-serif;
+	--fc-timer: #323238;
+
+	--bg-sound-card: #bebebe;
+	--bg-soundButton: #02799D;
+
+	--sound-icon-color: #323238;
+	--soundIcon: #FFFFFF
+}
+
+.page {
+	display: grid;
+	min-height: 100vh;
+}
+
+main {
+	display: grid;
+	width: 35rem;
+	height: 100%;
+	justify-self: center;
+	align-self: center;
+	gap: 7rem;
+	padding: 1rem;
+}
+
+#timerSection {
+	width: 31.5rem;
+	align-self: center;
+}
+
+.timer {
+	display: flex;
+	font-family: var(--ff-timer);
+	font-size: 12.6rem;
+	color: var(--fc-timer);
+	margin-bottom: 3rem;
+}
+
+.controlsWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.hideButton {
+	display: none;
+}
+
+.controlsWrapper button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+#soundSection {
+	display: grid;
+	width: 30.8rem;
+}
+
+.soundWrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+	gap: 2rem;
+}
+
+.soundButton {
+	display: flex;
+	background-color: var(--bg-sound-card);
+	width: 12rem;
+	height: 13rem;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2.4rem;
+	cursor: pointer;
+	border: none;
+}
+
+.soundButtonColor {
+	background-color: var(--bg-soundButton);
+}
+
+.soundButtonColor svg path {
+	fill: var(--soundIcon);
+}
+
+@media(min-width: 800px) {
+	main {
+		width: 82rem;
+		height: 33.6rem;
+		display: flex;
+		justify-self: center;
+		align-self: center;
+		gap: 15rem;
+		padding: 1rem;
+	}
+}
