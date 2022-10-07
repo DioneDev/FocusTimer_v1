@@ -6,7 +6,10 @@
 
 ## About
 
-Project developed based on the Pomodoro technique which consist of focusing on a task for 25 minutes and resting for 5 minutes.
+<p>
+  <strong>FocusTimer</strong> is a stopwatch app based on the pomodoro technique. This technique consists of staying focused on a task for a minimum of 25 minutes and resting for 5 minutes. So after 4 pomodoros, you can take a longer break of 20 to 30 minutes.
+</p>
+
 
 <br>
 
