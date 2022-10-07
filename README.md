@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>FocusTimer</h1>
+  <h1>:hourglass_flowing_sand: FocusTimer</h1>
 </div>
 
 <br>
