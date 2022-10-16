@@ -16,8 +16,6 @@
 <div align="center">
   <h2>GIF</h2>
   <img src="https://user-images.githubusercontent.com/73083955/180661109-859b4da9-f56e-4f31-b730-f32db918c5e4.gif" />
-
-  :link: [Try FocusTimer]()
 </div>
 
 <br>
